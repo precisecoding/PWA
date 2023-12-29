@@ -1,6 +1,6 @@
 # 19 Progressive Web Applications (PWA): Text Editor
 
-## Your Task
+## Description
 
 As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
 
@@ -54,91 +54,52 @@ THEN I should have proper build scripts for a webpack application
 
 The following animation demonstrates the application functionality:
 
-![Demonstration of the finished Module 19 Challenge being used in the browser and then installed.](./Assets/00-demo.gif)
+![Screenshot](./Assets/screenshotpwa.png)
 
-The following image shows the application's `manifest.json` file:
+## Motivation
 
-![Demonstration of the finished Module 19 Challenge with a manifest file in the browser.](./Assets/01-manifest.png)
+I was motivated to complete this assignment to learn more about the popular coding archetechture, a single-page application that meets the PWA criteria. Additionally, it will teach me how to use a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
 
-The following image shows the application's registered service worker:
+## Why
 
-![Demonstration of the finished Module 19 Challenge with a registered service worker in the browser.](./Assets/02-service-worker.png)
+I wanted to further my knowledge of JavaScript libraries and frameworks, and learn how to use a packages like idb, webpack, and babel with the Indexedb API as the database. It allows for installing locally and functioning offline. This PWA also features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
 
-The following image shows the application's IndexedDB storage:
+## What problem does it solve?
 
-![Demonstration of the finished Module 19 Challenge with a IndexedDB storage named 'jate' in the browser.](./Assets/03-idb-storage.png)
+This project solves the problem of data persistence, and offline functionality. This solves the problem of functioning even when offline by using a database API called Indexedb, packages like idb, webpack, and babel. It allows the user to install the app for offline functionality including the ability to save to the API database to allow for rendering saved data during offline use when connecting back to the internet. This PWA features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
 
-## Grading Requirements
+## What did you learn?
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+I learned how to structure a PWA, and how to use a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline. I learned how to use a packages like idb, webpack, and babel with the Indexedb API as the database. This taught me how to build an app that can function both online and offline.
 
-This Challenge is graded based on the following criteria:
+## Installation
 
-### Technical Acceptance Criteria: 40%
+first type npm install in the terminal, then npm run start in the terminal to start the server, then go to localhost:3001 in the browser to view the app.
 
-* Satisfies all of the above acceptance criteria plus the following:
+## Usage
 
-  * Uses IndexedDB to create an object store and includes both GET and PUT methods
+This app can be used to create and save notes, and code snippets. It can be used to save data to a database, and render that data on or offline.
 
-  * The application works without an internet connection
+### Link to github repo
 
-  * Automatically saves content inside the text editor when the DOM window is unfocused
+<https://github.com/precisecoding/PWA>
 
-  * Bundled with webpack
+### Deployed link
 
-  * Create a service worker with workbox that Caches static assets
 
-  * The application should use babel in order to use async / await
 
-  * Application must have a generated `manifest.json` using the `WebpackPwaManifest` plug-in
+### This site was built using netlify and render
 
-  * Can be installed as a Progressive Web Application
+Render:
+<https://render.com/>
 
-### Deployment: 32%
+### License
 
-* Application deployed to Heroku at live URL with build scripts
+MIT License:
+<https://opensource.org/licenses/MIT>
+<https://choosealicense.com/licenses/mit/>
+LICENSE file included in repository.
 
-* Application loads with no errors
+### Thanks to everyone for support and contributions
 
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Sources used: <https://developer.mozilla.org/en-US/>, <https://www.w3schools.com/>, <https://stackoverflow.com/>.
