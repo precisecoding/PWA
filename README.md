@@ -86,9 +86,18 @@ This app can be used to create and save notes, and code snippets. It can be used
 
 ### Deployed link
 
+Deployed on netlify
 
+<https://pwanetlify.netlify.app/>
+
+Deployed on render as per instructions from Dan
+
+<https://pwa-z68t.onrender.com/>
 
 ### This site was built using netlify and render
+
+Netlify:
+<https://www.netlify.com/>
 
 Render:
 <https://render.com/>
